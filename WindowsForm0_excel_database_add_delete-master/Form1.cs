@@ -58,6 +58,7 @@ namespace WindowsFormsApp1
                 baglanti.Close();
                 kullanıcı_getir();
             }
+
             catch (Exception)
             {
                 MessageBox.Show("Tc numaranız kayıtlı kullanıcılarla aynı olamaz");
